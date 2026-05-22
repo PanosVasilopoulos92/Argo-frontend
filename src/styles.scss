@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* Argo — global styles entry */
+@use '@fontsource/inter/400.css';
+@use '@fontsource/inter/500.css';
+@use '@fontsource/inter/600.css';
+@use '@fontsource/inter/700.css';
+@use '@fontsource/jetbrains-mono/400.css';
+@use '@fontsource/jetbrains-mono/500.css';
+@use '@fontsource/fraunces/400.css';
+@use '@fontsource/fraunces/500.css';
+@use '@fontsource/fraunces/600.css';
+
+/* All tokens + base + component CSS lives in the prototype's stylesheet
+   ported verbatim. Keep this as your single source of visual truth.        */
+@use 'styles/tokens';
